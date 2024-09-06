@@ -1,0 +1,22 @@
+{
+    "name": "To-Do List App",
+    "short_name": "To-Do",
+    "description": "A simple to-do list app to manage your tasks.",
+    "start_url": "/to-do-list.html",
+    "display": "standalone",
+    "background_color": "#000000",
+    "theme_color": "#000000",
+    "icons": [
+      {
+        "src": "planning.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      },
+      {
+        "src": "planning.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ]
+  }
+  

@@ -1,0 +1,115 @@
+/* Reset default styles */
+body, h1, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Dark theme styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212; /* Dark background */
+    color: #e0e0e0; /* Light text color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: #1e1e1e; /* Darker container background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 300px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #e0e0e0; /* Light text color */
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+#task-input, #reminder-input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #333; /* Dark border */
+    border-radius: 4px;
+    background-color: #222; /* Dark input background */
+    color: #e0e0e0; /* Light text color */
+}
+
+button {
+    padding: 8px 16px;
+    border: none;
+    color: #e0e0e0; /* Light text color */
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #007bff; /* Primary button color */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker on hover */
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #333; /* Dark border */
+}
+
+li.completed .task-text {
+    text-decoration: line-through;
+    color: #888; /* Gray text for completed tasks */
+}
+
+.toggle-btn {
+    background: #007bff; /* Toggle button color */
+    border: none;
+    color: #e0e0e0; /* Light text color */
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.toggle-btn:hover {
+    background: #0056b3; /* Darker on hover */
+}
+
+
+.alert-icon {
+    width: 20px; /* Adjust size as needed */
+    height: 20px;
+    background: url('bell.png') no-repeat center center; /* Path to your icon */
+    background-size: contain; /* Ensure the icon scales correctly */
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+
+
+
+.delete-btn {
+    background: #dc3545; /* Delete button color */
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.delete-btn:hover {
+    background: #c82333; /* Darker on hover */
+}
